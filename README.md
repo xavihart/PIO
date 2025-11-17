@@ -3,6 +3,11 @@
 <p align="center">
   <em>Benchmarking Embodied Reasoning for Vision Language Models in Multi-Stage Visual Grounding</em>
 </p>
+<p align="center">
+  <img src="src/logo.png" alt="PIO Benchmark Overview" width="40%">
+  <img src="src/pio_dataexplore.png" alt="PIO Benchmark Overview" width="47.6%">
+</p>
+
 
 <p align="center">
   <a href="https://arxiv.org/abs/2509.25794">
@@ -18,10 +23,6 @@
   </a>
 </p>
 
-
-<p align="center">
-  <img src="src/logo.png" alt="PIO Benchmark Overview" width="45%">
-</p>
 
 <p align="center">
   <strong>TL;DR:</strong> We move embodied reasoning evaluation from multiple-choice answers (A/B/C/D) to <strong>visual grounding</strong>, testing whether VLMs truly know <em>where to point</em> in realistic embodied scenarios.
