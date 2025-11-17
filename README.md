@@ -1,7 +1,7 @@
 <h1 align="center">Point-It-Out (PIO)</h1>
 
 <p align="center">
-  <em>An embodied reasoning benchmark focus on visual grounding</em>
+  <em>Benchmarking Embodied Reasoning for Vision Language Models in Multi-Stage Visual Grounding</em>
 </p>
 
 <p align="center">
@@ -29,7 +29,6 @@
 
 <hr>
 
-<h3 align="center">Authors</h3>
 
 <p align="center">
   <strong>Haotian Xue</strong><sup>1,2*</sup>,
@@ -95,15 +94,13 @@ PIO consists of three stages, each targeting a different aspect of embodied reas
 
 - **(S2) Task-Centric Grounding**  
   Refer to **where to act** based on a downstream goal:
-  - Recommendation (e.g., safest lane to keep a child safe)
+  - Recommendation (e.g., I am thirsty, point to something that can help)
   - Affordance (where to grasp / push / open)
   - Next-state prediction (where an object will move or should move)
 
 - **(S3) Visual Trace Prediction**  
   Predict a **continuous trajectory** in the image to accomplish a task:
   - Draw a motion trace to open/close objects
-  - Indicate safe driving trajectories
-  - Represent complex action sequences
 
 ---
 
