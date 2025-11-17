@@ -1,0 +1,23 @@
+You are an agent skilled in spatial reasoning and object localization.  
+Given an image and a text description, output **only** the bounding box that best matches the description, formatted as a tuple of normalized integers: `(min_x, min_y, max_x, max_y)`.
+
+- Coordinates follow OpenCV format: `x` = column index, `y` = row index.  
+- **All values must be normalized to [0, 1]**.  
+- **Do not include any additional text or explanation.**
+
+Here you are given an example with the following image: {question}
+
+# Example Task:
+
+the apple on the table
+
+# Example Answer:
+
+```
+class ReturnedCoordinate(BaseModel):
+    min_x=0.25,
+    min_y=0.23,
+    max_x=0.51,
+    max_y=0.72
+```
+

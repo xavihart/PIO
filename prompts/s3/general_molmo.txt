@@ -1,0 +1,2 @@
+Based on the input image, points to a sequence of 2D points in format of html points as a rough trajectory to complete the following task: {task}, the starting point is annotated in red in the image, and the position is {eepose}, your output trajectory should start from it. 
+Your answer is:

@@ -1,0 +1,4 @@
+Locate to the bounding box of the area / object described in the following question in json format: {question}. 
+
+ - Do not output "there are none", the object always exists! 
+ - Please only output one bounding box !

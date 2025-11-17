@@ -1,0 +1,1 @@
+To figure out the action that the robot should take, the task is: {task}, the red mark represent the starting point of the robot arm, return the trajectory of the end effector.

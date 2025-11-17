@@ -1,0 +1,19 @@
+Given the task description and the image observation, you need to output a sequence of 2D points that can complete the task. 
+You will also be offered the starting points of the current end-effector (annotated in red marker in the given image) and its accurate 2D position. 
+You need to return 5~10 points (x,y) as trajectory starting from the current position. Do not return anything but points!
+
+ - Do not output "there are none", the trajectory always exists! 
+
+## Task Description:
+
+{task}
+
+## Current End-effector 2D position (marked in red in the image)
+
+{eepose}
+
+Please return your answer here, the format should be:
+{{'explanation':'...', 'trajectory':[(x1, y1), (x2, y2), ...]}}
+
+# Answer:
+

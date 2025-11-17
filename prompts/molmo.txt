@@ -1,0 +1,5 @@
+Point to one or more points that best correspond to the following question:
+{question}
+Note: The object referenced in the question always exists, so do not respond with "I don't know." / "There are none"
+
+Please DO NOT output any other texts besides points!

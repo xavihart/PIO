@@ -1,0 +1,25 @@
+You are a judge in an evaluation arena.  
+You are given an image containing a ground-truth polygon (shown with green lines) and predictions from two models: Model A and Model B.  
+
+The original task is: **{question}**.  
+Each model's prediction may be in one of two forms: bounding box or points.  
+- Predictions from Model A are colored **red**.  
+- Predictions from Model B are colored **blue**.
+
+Your task is to determine which model performed better and provide a detailed explanation.
+
+You may refer to the following criteria:
+- The distance between the predicted bounding box/points and the ground-truth polygon.
+- The relevance of the prediction to the given question.
+- Whether the model made many unrelated or irrelevant predictions.
+
+Please return your answer in the following format:
+
+```python
+class Ans(BaseModel):
+    explanation: str  # A detailed explanation of your judgment
+    better_model: str  # Either 'A' or 'B'
+```
+
+Your answer:
+
